@@ -1,0 +1,37 @@
+.cabecalho{
+    display:flex;
+    justify-content:space-between;
+}
+
+.cabecalho-menu__logo {
+    width: 120px;
+    padding:0 2em;
+}
+
+.cabecalho-menu {
+    display: flex;
+    padding-top:1.5em;
+    margin-right:2em;
+}
+
+.cabecalho-menu__item{
+    padding-top:0.5em;
+}
+
+.cabecalho-menu__link{
+    text-decoration:none;
+    color:var(--branco-transparente);
+    margin: 0 0.5em;
+}
+
+.cabecalho-menu__imagem{
+    width:32px;
+    margin: 0 0.5em;
+}
+
+.cabecalho-menu__seta{
+    width:18px;
+    margin-left: 8px;
+    padding-bottom:8px;
+}
+

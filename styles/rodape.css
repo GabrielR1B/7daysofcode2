@@ -1,0 +1,42 @@
+footer{
+    padding:1em 3em;
+}
+
+.media{
+    display:flex;
+}
+
+.media-imagem{
+    padding: 0 0.7em;
+    width: 40px;
+}
+
+.rodape-listas{
+ margin: 2em auto;
+ display:flex;
+ justify-content:space-between;
+}
+
+.rodape-listas__item{
+    padding:1em 0;
+}
+
+.rodape-link {
+    text-decoration: none;
+    color: var(--cinza-transparente);
+    font-size:18px;
+}
+
+.rodape-botao{
+    color:var(--cinza-transparente);
+    text-decoration:none;
+    font-size:18px;
+    padding: 0.5em 1em;
+    border: 2px solid var(--cinza-transparente)
+}
+
+.rodape-copyright{
+    margin: 4em 0 0;
+    color:var(--cinza-transparente);
+    font-size:14px;
+}

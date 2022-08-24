@@ -1,0 +1,60 @@
+.container-background {
+	width: 100%;
+	background-image: var(--preto-gradiente), url("../img/banner.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 850px;
+}
+
+
+.banner{
+	width:40%;
+    padding: 9em 0 0 35px;
+}
+
+.banner-imagem{
+	width:85%
+}
+
+.banner-texto {
+	color: var(--branco);
+	font-size:22px;
+	line-height:1.2;
+}
+
+.banner-botoes{
+	display:flex;
+	margin: 3em 0;
+}
+
+	.banner-botoes a {
+		font-size: 20px;
+		font-weight: 700;
+		text-decoration: none;
+		border-radius: 4px;
+	}
+
+.banner-icone__assitir{
+	margin-right: 12px;
+}
+
+.banner-botao__assistir{
+	color:var(--preto);
+	background-color:var(--branco);
+	padding:0.6em 2em;
+}
+
+
+.banner-icone__informacoes {
+	color: var(--cinza-transparente);
+	background-color: var(--branco);
+	border-radius: 90px;
+	margin-right: 12px;
+}
+
+.banner-botao__informacoes {
+	color: var(--branco);
+	margin-left: 1em;
+	background-color:var(--cinza-transparente);
+	padding: 0.6em 2em;
+}
