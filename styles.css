@@ -15,9 +15,6 @@ body {
     background-color: var(--preto);
     font-size: 16px;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: var(--preto-gradiente), url("../img/banner.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: Arial, Helvetica, sans-seriff
 }
 
